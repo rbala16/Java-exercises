@@ -1,3 +1,5 @@
+import java.nio.channels.Pipe.SourceChannel;
+
 public class Main {
     
     public static void main(String[] args) {
@@ -5,14 +7,14 @@ public class Main {
         ❎ variable = A reusable container for a value.
                                 A variable behaves as if it was the value it contains.
 
-        🟥 Primitive = simple value stored directly in memory (stack)
+        🟥 Primitive = simple value stored directly in memory (location:stack)
         🟦 Reference = memory address (stack) that points to the (heap)
 
-        🟥 Primitive            vs    🟦 Reference
+        🟥 Primitive            vs    🟦 Reference(sequences of chracters)
             ---------                      ---------
-            int                           string
+            int                           string("")
             double                        array
-            char                          object
+            char ('')                     object
             boolean
           */
 
@@ -66,5 +68,20 @@ public class Main {
             System.out.println("You are not a student");
         }
 
+        String name = "Rajni";
+        int gta = 6;
+        double pi = 3.14159;
+        char gender = 'F';
+        boolean isAdmin= true;
+        
+        System.out.println("My name is " + name + "gender: " + gender);
+        System.out.println("The value of pi is: " + pi);
+        if(isAdmin){
+            System.out.println("You are a Admin");
+        }
+        else{
+            System.out.println("You are not a Admin");
+        }
+        System.out.println(gta);
     }
 }
