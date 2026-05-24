@@ -2,7 +2,7 @@ public class Main {
 
     public static void main(String[] args) {
         // printf() is a method used to format output
-
+        //System.out.printf("format", values);
         // % [flags] [width] [.precision] [specifier-character]
 
         /***** [specifier-character] ***********/
