@@ -7,6 +7,7 @@ public class Example2 {
         
         String response = "";
 
+        // response is not == to Q
         while (!response.equals("Q")) {
             System.out.println("You are playing a game");
             System.out.println("Press Q to quit");

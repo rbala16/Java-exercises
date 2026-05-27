@@ -12,7 +12,7 @@ public class Example1 {
             name = scanner.nextLine();
 
         }
-        // while ( 1 == 1){}  this condition cannnot change , i will stuck in this loop , keep runninh
+        // while ( 1 == 1){} infinite loop-> this condition cannnot change , i will stuck in this loop , keep runninh
         System.out.println("Hello " + name);
 
         scanner.close();
