@@ -31,5 +31,6 @@ public class Conversion {
             System.out.println("That was not a valid choice");
         }
 
+        scanner.close();
     }
 }
