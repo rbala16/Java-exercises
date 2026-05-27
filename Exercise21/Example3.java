@@ -11,6 +11,9 @@ public class Example3 {
         age = scanner.nextInt();
 
         // if condition is false , while loop don't run
+        // Use while when the condition should be checked first.
+        // Use do...while when the loop must run at least once (like menus or user input
+        // programs).
         while (age < 0) {
             System.out.println("Age can't be negative");
             System.out.print("Enter your age: ");
