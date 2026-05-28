@@ -8,7 +8,7 @@ public class Methods {
      //arguments are actual value passed during method call e.g name and age
         happyBirthday(name,age);  
     }
-    //String name and int age is parameters ,
+    //String name and int age is parameters ,we need to set up matching parameters
     // this is inside method definition.It acts like a placeholder variable.you can name it different too
     static void happyBirthday(String name,int age){   
       System.out.println("Happy Birthday to you!");
