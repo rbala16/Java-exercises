@@ -2,7 +2,7 @@ public class MethodsPartTwo {
     public static void main(String[] args) {
         // method = a block of reusable code that is executed when called ()
         // return keyword will return the value after the method ends and it will
-        // return thst value back to the place in whuch you call that method
+        // return thst value back to the place in which you call that method
         System.out.println(square(3));
         // double result = square(3);
         // System.out.println(result);
