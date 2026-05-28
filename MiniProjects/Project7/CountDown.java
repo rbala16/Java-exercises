@@ -19,6 +19,7 @@ public class CountDown {
             Pause the program for 1000 milliseconds (1 second)
             */
             Thread.sleep(1000); 
+        }
         System.out.println("Happy new year!!");
         scanner.close();
     }
