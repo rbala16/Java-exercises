@@ -20,7 +20,7 @@ public class MethodsPartTwo {
     }
 
     static double square(double number) {
-        return number * number;
+        return number * number; //return is used because your method is supposed to send a value back to the place where it was called( TO THE CALLER)
     }
 
     static double cube(double number) {
