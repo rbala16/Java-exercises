@@ -1,17 +1,28 @@
 public class Varargs {
     public static void main(String[] args) {
-        // varargs = allow a method to accept a varying # of arguments
-        // makes methods more flexible, no need for overloaded methods
-        // java will pack the arguments into an array
-        // ... (ellipsis)
+        /*
+         * varargs = allow a method to accept a varying # of arguments
+         * makes methods more flexible, no need for overloaded methods
+         * java will pack the arguments into an array
+         * ... (ellipsis)
+         * Syntax
+         * returnType methodName(datatype... variableName)
+         */
 
-        System.out.println(add(1, 2, 3, 4));
-        
+      // Varargs means Passing multiple values to a method using a single parameter
+      //Instead of writing multiple overloaded methods, we use ...
+      //Varargs must be the LAST parameter
+      System.out.println(add(1, 2, 3, 4));
+
         System.out.println(average(1, 2, 3, 4));
 
     }
 
+
     // sum of numbers
+
+    // ...numbers (name of the array)
+    //numbers :name of the array
     static int add(int... numbers) {
         // System.out.println(numbers); //given memory address
         int sum = 0;
