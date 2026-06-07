@@ -1,3 +1,4 @@
+package SingleDimensionalArray;
 import java.util.Arrays;
 
 public class Array {

@@ -1,4 +1,4 @@
-public class ArrayPart5 {
+public class MultiDimensionalArrayPractice {
     public static void main(String[] args) {
 
         char[][] telephone = { { '1', '2', '3' },

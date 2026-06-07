@@ -1,4 +1,4 @@
-public class ArrayPart4 {
+public class MultiDimensionalArray {
     public static void main(String[] args) {
         /*
          * 2D array = An array where each element is an array , also known as multi
