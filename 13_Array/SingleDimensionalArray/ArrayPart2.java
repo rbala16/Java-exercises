@@ -1,3 +1,4 @@
+package SingleDimensionalArray;
 import java.util.Scanner;
 
 public class ArrayPart2 {
