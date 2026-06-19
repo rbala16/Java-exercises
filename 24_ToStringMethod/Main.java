@@ -35,7 +35,7 @@ public class Main {
         // System.out.println(car1); //memory address
         // System.out.println(car1.color + " " + car1.year + " " + car1.make + " " + car1.model);
         
-        // Printing objects
+        // Printing objects car1 and car2
         System.out.println(car1);
         System.out.println(car2);
     }
